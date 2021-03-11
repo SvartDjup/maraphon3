@@ -1,0 +1,194 @@
+body{
+    /*width: 1400px;*/
+    background-color: #EFE6E4;
+    color: #533738;
+    font-family: Montserrat, sans-serif;
+
+
+}
+a{
+    text-decoration: none;
+    color: #533738;
+    font-family: Montserrat, sans-serif;
+}
+
+button{
+    background-color: #CC8B86;
+    border: none;
+    width: 310px;
+    height: 74px;
+    font-size: 20px;
+    color: #533738;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 62px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 18px;
+    line-height: 30px;
+}
+ul{
+    list-style: none;
+}
+/*Header*/
+/*Menu */
+.header-page{
+    /*height: 715px;*/
+    /*width: 1400px;*/
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.navigation{
+    font-size: 16px;
+    line-height: 20px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main-menu{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-menu li{
+    margin-right: 26px;
+}
+
+.title{
+
+    min-height: 715px;
+    background: url("img/background-main.png") no-repeat center;
+    background-size: cover;
+    padding-top: 184px;
+    /*padding-left: 432px;*/
+    padding-left: 23%;
+    margin-bottom: 24px;
+    margin-top: 0;
+
+}
+
+.title h1{
+
+    width: 493px;
+    margin-top: 0;
+
+}
+.title p{
+    width: 368px;
+}
+
+/*About us*/
+.about-us{
+
+    margin-top: 0;
+    /*display: flex;
+    flex-wrap: wrap;*/
+}
+
+.about-us h2{
+    text-align: center;
+    padding-top: 70px;
+}
+.about-us .info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.about-us .text{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.about-us .ptext{
+    width: 528px;
+
+}
+.about-us img{
+    width: 445px;
+    margin-right: 63px;
+}
+.number{
+    min-height: 273px;
+    display: flex;
+
+    background-color: #8D7370;
+    color: #FFFFFF;
+    justify-content: space-around;
+
+}
+
+.number li{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.number h3{
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 62px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+
+}
+.number .li-number{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+
+    margin-top: 0;
+
+
+}
+
+.our-projects{
+    min-height: 1099px;
+
+}
+
+.our-projects .projects-list{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
